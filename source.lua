@@ -304,11 +304,11 @@ local RayfieldLibrary = {
 
 		-- TEMA VINHO — exclusivo do fork
 		Vinho = {
-			TextColor = Color3.fromRGB(245, 230, 235),
+			TextColor = Color3.fromRGB(255, 186, 8),
 
-			Background = Color3.fromRGB(55, 6, 23),
-			Topbar = Color3.fromRGB(45, 18, 28),
-			Shadow = Color3.fromRGB(18, 8, 12),
+			Background = Color3.fromRGB(255, 186, 8),
+			Topbar = Color3.fromRGB(255, 186, 8),
+			Shadow = Color3.fromRGB(255, 186, 8),
 
 			NotificationBackground = Color3.fromRGB(40, 15, 22),
 			NotificationActionsBackground = Color3.fromRGB(220, 190, 200),
