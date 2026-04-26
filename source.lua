@@ -304,45 +304,45 @@ local RayfieldLibrary = {
 
 		-- TEMA VINHO — exclusivo do fork
 		Vinho = {
-			TextColor = Color3.fromRGB(255, 186, 8),
-
-			Background = Color3.fromRGB(255, 186, 8),
-			Topbar = Color3.fromRGB(255, 186, 8),
-			Shadow = Color3.fromRGB(255, 186, 8),
-
-			NotificationBackground = Color3.fromRGB(40, 15, 22),
-			NotificationActionsBackground = Color3.fromRGB(220, 190, 200),
-
-			TabBackground = Color3.fromRGB(255, 186, 8),
-			TabStroke = Color3.fromRGB(255, 186, 8),
-			TabBackgroundSelected = Color3.fromRGB(255, 186, 8),
-			TabTextColor = Color3.fromRGB(255, 186, 8),
-			SelectedTabTextColor = Color3.fromRGB(255, 186, 8),
-
-			ElementBackground = Color3.fromRGB(255, 186, 8),
-			ElementBackgroundHover = Color3.fromRGB(255, 186, 8),
-			SecondaryElementBackground = Color3.fromRGB(255, 186, 8),
-			ElementStroke = Color3.fromRGB(255, 186, 8),
-			SecondaryElementStroke = Color3.fromRGB(255, 186, 8),
-
-			SliderBackground = Color3.fromRGB(255, 186, 8),
-			SliderProgress = Color3.fromRGB(255, 186, 8),
-			SliderStroke = Color3.fromRGB(200, 55, 95),
-
-			ToggleBackground = Color3.fromRGB(255, 186, 8),
-			ToggleEnabled = Color3.fromRGB(255, 186, 8),
-			ToggleDisabled = Color3.fromRGB(255, 186, 8),
-			ToggleEnabledStroke = Color3.fromRGB(255, 186, 8),
-			ToggleDisabledStroke = Color3.fromRGB(255, 186, 8),
-			ToggleEnabledOuterStroke = Color3.fromRGB(255, 186, 8),
-			ToggleDisabledOuterStroke = Color3.fromRGB(255, 186, 8),
-
-			DropdownSelected = Color3.fromRGB(255, 186, 8),
-			DropdownUnselected = Color3.fromRGB(255, 186, 8),
-
-			InputBackground = Color3.fromRGB(255, 186, 8),
-			InputStroke = Color3.fromRGB(255, 186, 8),
-			PlaceholderColor = Color3.fromRGB(255, 186, 8)
+		    TextColor = Color3.fromRGB(235, 235, 235),
+		
+		    Background = Color3.fromRGB(8, 8, 8),
+		    Topbar = Color3.fromRGB(12, 12, 12),
+		    Shadow = Color3.fromRGB(4, 4, 4),
+		
+		    NotificationBackground = Color3.fromRGB(10, 10, 10),
+		    NotificationActionsBackground = Color3.fromRGB(200, 200, 200),
+		
+		    TabBackground = Color3.fromRGB(18, 18, 18),
+		    TabStroke = Color3.fromRGB(30, 30, 30),
+		    TabBackgroundSelected = Color3.fromRGB(160, 10, 20),
+		    TabTextColor = Color3.fromRGB(180, 180, 180),
+		    SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
+		
+		    ElementBackground = Color3.fromRGB(14, 14, 14),
+		    ElementBackgroundHover = Color3.fromRGB(22, 22, 22),
+		    SecondaryElementBackground = Color3.fromRGB(10, 10, 10),
+		    ElementStroke = Color3.fromRGB(35, 8, 8),
+		    SecondaryElementStroke = Color3.fromRGB(28, 6, 6),
+		
+		    SliderBackground = Color3.fromRGB(120, 8, 15),
+		    SliderProgress = Color3.fromRGB(180, 12, 22),
+		    SliderStroke = Color3.fromRGB(210, 15, 28),
+		
+		    ToggleBackground = Color3.fromRGB(14, 14, 14),
+		    ToggleEnabled = Color3.fromRGB(185, 10, 20),
+		    ToggleDisabled = Color3.fromRGB(45, 45, 45),
+		    ToggleEnabledStroke = Color3.fromRGB(220, 15, 28),
+		    ToggleDisabledStroke = Color3.fromRGB(60, 60, 60),
+		    ToggleEnabledOuterStroke = Color3.fromRGB(140, 8, 15),
+		    ToggleDisabledOuterStroke = Color3.fromRGB(30, 30, 30),
+		
+		    DropdownSelected = Color3.fromRGB(22, 6, 6),
+		    DropdownUnselected = Color3.fromRGB(14, 14, 14),
+		
+		    InputBackground = Color3.fromRGB(14, 14, 14),
+		    InputStroke = Color3.fromRGB(100, 8, 12),
+		    PlaceholderColor = Color3.fromRGB(120, 120, 120)
 		},
 
 		Ocean = {
