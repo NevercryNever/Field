@@ -305,7 +305,47 @@ local RayfieldLibrary = {
 			InputStroke = Color3.fromRGB(65, 65, 65),
 			PlaceholderColor = Color3.fromRGB(178, 178, 178)
 		},
-
+		Nexus = {
+		    TextColor = Color3.fromRGB(240, 240, 255),
+		
+		    Background = Color3.fromRGB(8, 8, 12),
+		    Topbar = Color3.fromRGB(14, 10, 22),
+		    Shadow = Color3.fromRGB(4, 4, 8),
+		
+		    NotificationBackground = Color3.fromRGB(10, 8, 16),
+		    NotificationActionsBackground = Color3.fromRGB(220, 215, 255),
+		
+		    TabBackground = Color3.fromRGB(20, 14, 35),
+		    TabStroke = Color3.fromRGB(35, 25, 55),
+		    TabBackgroundSelected = Color3.fromRGB(110, 60, 200),
+		    TabTextColor = Color3.fromRGB(180, 170, 210),
+		    SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
+		
+		    ElementBackground = Color3.fromRGB(16, 12, 26),
+		    ElementBackgroundHover = Color3.fromRGB(24, 18, 40),
+		    SecondaryElementBackground = Color3.fromRGB(12, 9, 20),
+		    ElementStroke = Color3.fromRGB(60, 35, 100),
+		    SecondaryElementStroke = Color3.fromRGB(45, 28, 75),
+		
+		    SliderBackground = Color3.fromRGB(55, 20, 120),
+		    SliderProgress = Color3.fromRGB(110, 50, 210),
+		    SliderStroke = Color3.fromRGB(140, 70, 240),
+		
+		    ToggleBackground = Color3.fromRGB(16, 12, 26),
+		    ToggleEnabled = Color3.fromRGB(120, 55, 220),
+		    ToggleDisabled = Color3.fromRGB(45, 45, 55),
+		    ToggleEnabledStroke = Color3.fromRGB(150, 80, 255),
+		    ToggleDisabledStroke = Color3.fromRGB(65, 65, 75),
+		    ToggleEnabledOuterStroke = Color3.fromRGB(90, 40, 170),
+		    ToggleDisabledOuterStroke = Color3.fromRGB(35, 35, 45),
+		
+		    DropdownSelected = Color3.fromRGB(30, 18, 52),
+		    DropdownUnselected = Color3.fromRGB(16, 12, 26),
+		
+		    InputBackground = Color3.fromRGB(16, 12, 26),
+		    InputStroke = Color3.fromRGB(80, 45, 140),
+		    PlaceholderColor = Color3.fromRGB(140, 130, 170)
+		},
 		-- TEMA VINHO — exclusivo do fork
 		Vinho = {
 		    TextColor = Color3.fromRGB(235, 235, 235),
