@@ -347,52 +347,45 @@ local RayfieldLibrary = {
 		    PlaceholderColor = Color3.fromRGB(140, 130, 170)
 		},	
 		Neon = {
-		    TextColor                     = Color3.fromRGB(220, 220, 220),
+		    TextColor = Color3.fromRGB(240, 240, 240),
 		
-		    -- Fundos principais (preto profundo)
-		    Background                    = Color3.fromRGB(10, 10, 10),
-		    Topbar                        = Color3.fromRGB(15, 15, 15),
-		    Shadow                        = Color3.fromRGB(0, 0, 0),
+		    Background = Color3.fromRGB(5, 5, 5),
+		    Topbar = Color3.fromRGB(8, 8, 8),
+		    Shadow = Color3.fromRGB(0, 0, 0),
 		
-		    -- Notificações
-		    NotificationBackground        = Color3.fromRGB(15, 15, 15),
-		    NotificationActionsBackground = Color3.fromRGB(20, 20, 20),
+		    NotificationBackground = Color3.fromRGB(8, 8, 8),
+		    NotificationActionsBackground = Color3.fromRGB(200, 200, 200),
 		
-		    -- Abas
-		    TabBackground                 = Color3.fromRGB(20, 20, 20),
-		    TabStroke                     = Color3.fromRGB(0, 255, 180),   -- neon verde-ciano
-		    TabTextColor                  = Color3.fromRGB(180, 180, 180),
-		    SelectedTabTextColor          = Color3.fromRGB(0, 255, 180),   -- neon
+		    TabBackground = Color3.fromRGB(12, 12, 12),
+		    TabStroke = Color3.fromRGB(0, 255, 180, 0.15),
+		    TabBackgroundSelected = Color3.fromRGB(0, 30, 20),
+		    TabTextColor = Color3.fromRGB(160, 160, 160),
+		    SelectedTabTextColor = Color3.fromRGB(0, 255, 180),
 		
-		    -- Elementos
-		    ElementBackground             = Color3.fromRGB(18, 18, 18),
-		    ElementBackgroundHover        = Color3.fromRGB(25, 255, 160, 0.08), -- leve brilho
-		    SecondaryElementBackground    = Color3.fromRGB(12, 12, 12),
-		    ElementStroke                 = Color3.fromRGB(0, 255, 180),   -- neon
-		    SecondaryElementStroke        = Color3.fromRGB(0, 180, 120),
+		    ElementBackground = Color3.fromRGB(10, 10, 10),
+		    ElementBackgroundHover = Color3.fromRGB(18, 18, 18),
+		    SecondaryElementBackground = Color3.fromRGB(7, 7, 7),
+		    ElementStroke = Color3.fromRGB(0, 80, 55),
+		    SecondaryElementStroke = Color3.fromRGB(0, 55, 38),
 		
-		    -- Slider
-		    SliderBackground              = Color3.fromRGB(30, 30, 30),
-		    SliderProgress                = Color3.fromRGB(0, 255, 180),   -- neon
-		    SliderStroke                  = Color3.fromRGB(0, 220, 150),
+		    SliderBackground = Color3.fromRGB(0, 80, 55),
+		    SliderProgress = Color3.fromRGB(0, 200, 140),
+		    SliderStroke = Color3.fromRGB(0, 255, 180),
 		
-		    -- Toggle
-		    ToggleBackground              = Color3.fromRGB(25, 25, 25),
-		    ToggleEnabled                 = Color3.fromRGB(0, 255, 180),   -- neon ativo
-		    ToggleDisabled                = Color3.fromRGB(35, 35, 35),
-		    ToggleEnabledStroke           = Color3.fromRGB(0, 220, 150),
-		    ToggleDisabledStroke          = Color3.fromRGB(50, 50, 50),
-		    ToggleEnabledOuterStroke      = Color3.fromRGB(0, 255, 180),
-		    ToggleDisabledOuterStroke     = Color3.fromRGB(40, 40, 40),
+		    ToggleBackground = Color3.fromRGB(12, 12, 12),
+		    ToggleEnabled = Color3.fromRGB(0, 210, 150),
+		    ToggleDisabled = Color3.fromRGB(40, 40, 40),
+		    ToggleEnabledStroke = Color3.fromRGB(0, 255, 180),
+		    ToggleDisabledStroke = Color3.fromRGB(55, 55, 55),
+		    ToggleEnabledOuterStroke = Color3.fromRGB(0, 140, 100),
+		    ToggleDisabledOuterStroke = Color3.fromRGB(28, 28, 28),
 		
-		    -- Dropdown
-		    DropdownSelected              = Color3.fromRGB(20, 20, 20),
-		    DropdownUnselected            = Color3.fromRGB(14, 14, 14),
+		    DropdownSelected = Color3.fromRGB(0, 25, 18),
+		    DropdownUnselected = Color3.fromRGB(10, 10, 10),
 		
-		    -- Input
-		    InputBackground               = Color3.fromRGB(14, 14, 14),
-		    InputStroke                   = Color3.fromRGB(0, 255, 180),   -- neon
-		    PlaceholderColor              = Color3.fromRGB(100, 100, 100),
+		    InputBackground = Color3.fromRGB(10, 10, 10),
+		    InputStroke = Color3.fromRGB(0, 180, 120),
+		    PlaceholderColor = Color3.fromRGB(100, 100, 100),
 		},
 		-- TEMA VINHO — exclusivo do fork
 		Vinho = {
